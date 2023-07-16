@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
+.culture-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem  6rem 5rem 6rem;
+  }
+
+
+  .culture-section > h1 {
+    color: #000;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 131.523%;
+    letter-spacing: -0.06875rem;
+    width: 30rem;
+  }
+  
+  .card-container
+   {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .culture-card {
+    width:40%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-align: left;
+    padding: 1.1rem;
+    margin: 1rem;
+  }
+  
+  .culture-card > img {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .culture-card >
+   h2 {
+    margin-top: 10px;
+    color: #000;
+    text-align: justify;
+    font-family: 'Fraunces', serif;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: -0.01rem;
+  }
+  
+  .culture-card > p {
+    color: #000;
+    text-align: justify;
+    font-family: Inter Tight;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 2.07025rem */
+    letter-spacing: -0.00563rem;  
+  }
+  
+
+
+  @media (max-width: 800px) {
+    .culture-section {
+       padding: 5rem 0.9rem;
+    }
+    .culture-card {
+        width: 100%;
+    }
+    .culture-card {
+        margin: 0.3rem;
+        padding: 0.5rem;
+    }
+
+
+  }

@@ -1,0 +1,51 @@
+.moving-text-container {
+    overflow: hidden;
+    background-color: #0A0A0A;
+    padding: 2rem 0; 
+    display: flex;
+  }
+  
+  .moving-text {
+    flex:1;
+    display: inline-block;
+    white-space: nowrap;
+    animation: moveText 14s linear infinite;
+  }
+  
+  .moving-text span {
+    position: relative;
+    padding-left: 20px;
+    padding-right: 2rem;
+    color: #FFF;
+    text-align: center;
+    font-family: Fraunces;
+    font-size: 1.6875rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 166.523%; 
+  }
+  .transparent-text{
+    color:transparent;
+    text-align: center;
+    font-family: Fraunces;
+    font-size: 1.6875rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 166.523%
+  }
+
+  .moving-text span::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+  }
+  
+  @keyframes moveText {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    padding: 5rem  6rem 5rem 6rem;
+
+  }
+  
+  .about-text-section {
+    flex: 1;
+  }
+  
+  .about-image-section > h1 {
+    font-family: 'Fraunces', serif;
+    color: #000;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: -0.06875rem;
+    margin-top: 0;
+  }
+  
+ 
+  .about-text-section > p {
+    font-family: 'Inter Tight', sans-serif;
+    color: #000;
+    text-align: justify;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 178.523%; 
+    letter-spacing: -0.00625rem;
+  }
+  
+ 
+  
+  .about-image-section {
+    flex: 0.7;
+
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .about-logo {
+    width: 16rem;
+    height: 16rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .logo-div {
+    width: 8rem;
+    height: 8rem;
+    background-color: transparent;
+  }
+
+  .coloured-div{
+    background-color:  #00D600;
+  }
+
+
+
+
+
+
+   @media (max-width: 800px) {
+    .about-section {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        text-align: center;
+        margin-top: 3rem;
+      }
+      .about-image-section  {
+     
+        justify-content: center;
+      }
+      .about-image-section > h1 {
+        margin: 2rem 0;
+      }
+    
+    }

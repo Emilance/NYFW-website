@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
+
+.counter-section {
+    display: flex;
+    justify-content: space-around;
+    background-color:transparent;
+    padding :0 5rem ;
+  }
+  
+  .counter-item {
+    text-align: center;
+  }
+  
+  .counter-item>  h2 {
+    color: #000;
+    font-family: 'Fraunces', serif;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    margin :0;
+    line-height: 105.023%; 
+    letter-spacing: -0.045rem;
+   
+  }
+  
+  .counter-item> p {
+    font-family: 'Fraunces', serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105.023%; /* 1.38781rem */
+    letter-spacing: -0.025rem;
+  }
+  
+
+  @media (max-width: 800px) {
+    .counter-section{
+      padding: 1.3rem;
+    }
+    .counter-item>  h2 {
+      font-size: 1.5rem;
+    }
+    .counter-item>  p {
+      font-size: 0.9rem;
+
+    }
+  }
