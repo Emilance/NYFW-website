@@ -10,6 +10,7 @@ import AboutSection from './components/AboutSection'
 import CultureComponent from './components/CultureSection'
 import SpeakerSection from './components/SpeakerSection'
 import GallerySection from './components/GallerySection'
+import FaqSection from './components/FaqSection'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
      <CultureComponent/>
      <SpeakerSection/>
      <GallerySection/>
+     <FaqSection/>
     </div>
   )
 }
