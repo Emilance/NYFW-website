@@ -56,6 +56,27 @@
 
 
 
+  @media (max-width: 1200px) {
+    .mission-image-section > img {
+      width: 22rem;
+      height: 23rem;
+      flex-shrink: 0;
+  
+    }
+    .mission-section {
+    
+      padding: 2.5rem 2rem 5rem 2rem;
+  
+    }
+    .mission-text-section > h1 {
+      font-size: 2rem;
+
+    }
+  
+   }
+
+
+
 
 
 

@@ -63,7 +63,13 @@
     background-color:  #00D600;
   }
 
-
+  @media (max-width: 1100px) {
+    .about-section {
+      
+      padding: 5rem  3rem 5rem 3rem;
+  
+    }
+  }
 
 
 
