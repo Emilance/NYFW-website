@@ -15,7 +15,7 @@
     font-size: 3rem;
     font-style: normal;
     font-weight: 900;
-    line-height: 111.023%; /* 3.33069rem */
+    line-height: 111.023%; 
     letter-spacing: -0.06rem;
    
 }
@@ -25,7 +25,7 @@
     font-size: 1.1rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 111.023%; /* 1.38781rem */
+    line-height: 111.023%;
     letter-spacing: -0.025rem;
 }
 
@@ -89,9 +89,13 @@
     .speaker-section {
         padding: 5rem 1rem;
     }
+    .speakers-container { 
+        margin:0;
+        padding: 0;
+    }
     .speaker {
-        width: 8rem;
-        height: 15rem;
+        width: 7rem;
+        height: 10rem;
     }
     .speaker > p {
         font-size: 0.6rem;
@@ -99,7 +103,7 @@
 
     }
     .speaker-section > h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
 }
