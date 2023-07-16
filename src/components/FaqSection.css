@@ -87,10 +87,14 @@
   
   .faq-answers h3 {
     margin-bottom: 0.5rem;
+    font-family: 'Inter Tight', sans-serif;
+
   }
   
   .faq-answers p {
     margin-bottom: 1rem;
+    font-family: 'Inter Tight', sans-serif;
+
   }
   
 
