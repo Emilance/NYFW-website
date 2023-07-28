@@ -34,14 +34,14 @@
     display: inline-block;
     white-space: nowrap;
     display: flex;
-    animation: moveText 14s linear infinite;
+    animation: moveText 20s linear infinite;
   }
   .moving-div-right {
     flex:1;
     display: inline-block;
     white-space: nowrap;
     display: flex;
-    animation: moveTextRight 14s linear infinite;
+    animation: moveTextRight 20s linear infinite;
   }
   
     .galimg-con{
@@ -50,11 +50,13 @@
     width: 25rem;
     height: 15rem;
 
+
   }
  
     .galimg-con > img {
         width: 100%;
         height: 100%;
+
      }
      .galimg-con > img:hover {
         transform: translateZ(20px);

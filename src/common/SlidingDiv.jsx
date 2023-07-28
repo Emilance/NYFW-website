@@ -1,9 +1,13 @@
 import React from 'react';
  const images = [
-    {img: './heroImage.jpg'},
-     {img: './heroImage.jpg'},
-     {img: './heroImage.jpg'},
-     {img: './heroImage.jpg'},
+    {img: './moment.jpg'},
+     {img: './moment1.jpg'},
+     {img: './moment2.jpg'},
+     {img: './moment8.jpg'},
+     {img: './moment7.jpg'},
+     {img: './moment5.jpg'},
+     {img: './moment1.jpg'},
+     {img: './moment7.jpg'},
      
  ]
 const SlidingDiv = ({direction}) => {

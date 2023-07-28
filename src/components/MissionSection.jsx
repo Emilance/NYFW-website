@@ -5,7 +5,7 @@ const MissionSection = () => {
   return (
     <div className="mission-section">
         <div className="mission-image-section">
-        <img src="heroImage.jpg" alt="mission Image" />
+        <img src="edu.png" alt="mission Image" />
       </div>
       <div className="mission-text-section">
             <h1>
